@@ -1,2 +1,1 @@
-new AddExpenseController();
-let expenseObj = new Expense();
+let addExpense = new AddExpenseController();

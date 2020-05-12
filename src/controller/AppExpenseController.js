@@ -148,6 +148,7 @@ class AddExpenseController {
                 btnDelete.id = `${e.id}`;
                 btnDelete.addEventListener('click', e => {
 
+                    let expenseObj = new Expense();
                     expenseObj.delete(btnDelete.id);
                     window.location.reload();
 
@@ -225,6 +226,7 @@ class AddExpenseController {
             btnDelete.id = `${e.id}`;
             btnDelete.addEventListener('click', e => {
 
+                let expenseObj = new Expense();
                 expenseObj.delete(btnDelete.id);
                 window.location.reload();
 
